@@ -18,7 +18,7 @@ public class Fly_To : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 	
-		if(Input.GetMouseButtonDown(0) && this.gameObject.tag == "MiniMap")
+		if(Input.GetMouseButtonDown(0))
 		{
 			Ray ray = camera.ScreenPointToRay(Input.mousePosition);
 			RaycastHit hit;
@@ -44,6 +44,7 @@ public class Fly_To : MonoBehaviour {
 
 		Drone = newDrone;
 		droneDestination = Drone.GetComponent<DroneFlight>();
+		print(Drone.gameObject.tag + "!");
 
 
 	}

@@ -19,13 +19,16 @@ public class PossessDrone : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
-		if(Input.GetMouseButtonDown(0))
-		{	/*
-			if (Input.GetButtonDown("Fire1") && Camera.main.pixelRect.Contains(Input.mousePosition))
 
-           */
+		if(Input.GetMouseButtonDown(0))
+		{	
+		
+
+
+
+
 			Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+			Debug.DrawRay(ray.origin, ray.direction *10 , Color.yellow);
 			RaycastHit hit;
 			
 			if(Physics.Raycast(ray, out hit))
@@ -35,15 +38,17 @@ public class PossessDrone : MonoBehaviour {
 
 					// use this to get the parent of the camera you click on and posses that drone!
 					Drone = this.transform.parent.gameObject;
-					newDrone.dronePossessed(Drone);
-				    print ("CLICKed");
-				    print(camera.transform.position + "HERE");
+				    print(Drone.gameObject.tag);
+					//newDrone.dronePossessed(Drone);
+				    //print ("CLICKed");
+				    //print(camera.transform.position + "HERE");
+				    newDrone.dronePossessed(Drone);
 					//this to be the drone destination 
 					//Sends the position you want to send your drone to
 					//print(hit.transform.position);
 					//droneDestination.setDestination(hit.transform.position);
 				//}
 			}
-		}
+		} 
 	}
 }

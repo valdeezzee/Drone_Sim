@@ -12,13 +12,13 @@ public class DroneFlight : MonoBehaviour {
 	private float counterClockWiseRotation;
 
 	public NavMeshAgent agent;
-	public GameObject target;
-	public Vector3 targetPostion;
+	//public GameObject target;
+	//public Vector3 targetPostion;
 	// Use this for initialization
 	void Start () 
 	{
 
-		targetPostion = target.transform.position;
+		//targetPostion = target.transform.position;
 		//gets the propellers
 		clockWisePropeller = GameObject.FindGameObjectsWithTag("ClockwisePropeller");
 		counterClockWisePropeller = GameObject.FindGameObjectsWithTag("CounterclockPropeller");
@@ -49,6 +49,7 @@ public class DroneFlight : MonoBehaviour {
 	{
 
 		agent.SetDestination(destination);
+		print(this.gameObject.tag + "GameObject tag");
 
 
 	}
