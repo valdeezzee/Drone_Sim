@@ -49,6 +49,7 @@
      <Compile Include="Assets\Scripts\DroneFlight.cs" />
      <Compile Include="Assets\Scripts\Fly_To.cs" />
      <Compile Include="Assets\Scripts\PossessDrone.cs" />
+     <Compile Include="Assets\Scripts\TextOutput.cs" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
