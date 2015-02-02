@@ -10,7 +10,7 @@ public class Fly_To : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		//gets the drone GameObject and gets the DroneFlight script
-		Drone = GameObject.Find("Drone");
+		Drone = GameObject.Find("DroneGuide");
 		droneDestination = Drone.GetComponent<DroneFlight>();
 
 	}

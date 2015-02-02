@@ -4,13 +4,14 @@ using System.Collections;
 public class PossessDrone : MonoBehaviour {
 
 	public GameObject Drone;
+	public GameObject DroneGuide;
 	public DroneFlight droneDestination;
 	public GameObject miniMap;
 	public Fly_To newDrone;
 	// Use this for initialization
 	void Start () {
 		//gets the drone GameObject and gets the DroneFlight script
-		Drone = GameObject.Find("Drone");
+		Drone = GameObject.Find("DroneGuide");
 		droneDestination = Drone.GetComponent<DroneFlight>();
 		miniMap = GameObject.Find("MiniMap");
 		newDrone = miniMap.GetComponent<Fly_To>();
@@ -28,7 +29,6 @@ public class PossessDrone : MonoBehaviour {
 
 
 			Ray ray = camera.ScreenPointToRay(Input.mousePosition);
-			Debug.DrawRay(ray.origin, ray.direction *10 , Color.yellow);
 			RaycastHit hit;
 			
 			if(Physics.Raycast(ray, out hit))
@@ -38,11 +38,13 @@ public class PossessDrone : MonoBehaviour {
 
 					// use this to get the parent of the camera you click on and posses that drone!
 					Drone = this.transform.parent.gameObject;
-				    print(Drone.gameObject.tag);
+					DroneGuide = Drone.transform.parent.gameObject;
+				    print(DroneGuide.gameObject.tag);
+					print (camera.gameObject.tag);
 					//newDrone.dronePossessed(Drone);
 				    //print ("CLICKed");
 				    //print(camera.transform.position + "HERE");
-				    newDrone.dronePossessed(Drone);
+				    newDrone.dronePossessed(DroneGuide);
 					//this to be the drone destination 
 					//Sends the position you want to send your drone to
 					//print(hit.transform.position);

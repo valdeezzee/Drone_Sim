@@ -49,7 +49,7 @@ public class DroneFlight : MonoBehaviour {
 	{
 
 		agent.SetDestination(destination);
-		print(this.gameObject.tag + "GameObject tag");
+		print(this.gameObject.tag + "  GameObject tag");
 
 
 	}
