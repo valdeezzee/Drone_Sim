@@ -14,6 +14,9 @@ public class test : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		Vector3 newLocation = new Vector3(0,0,UAV.transform.eulerAngles.y);
+		knob.rotation = Quaternion.Euler (newLocation);
+		print (knob.transform.eulerAngles.z);
 
 	}
 }
