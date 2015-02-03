@@ -7,6 +7,8 @@ Project("{A178914D-EA39-E23C-117E-164B05B43995}") = "Drone", "Assembly-CSharp.cs
 EndProject
 Project("{A178914D-EA39-E23C-117E-164B05B43995}") = "Drone", "Assembly-UnityScript-firstpass.unityproj", "{9002B676-F33C-4DB1-9FB1-DB1C2FAF16F0}"
 EndProject
+Project("{A178914D-EA39-E23C-117E-164B05B43995}") = "Drone", "Assembly-UnityScript.unityproj", "{B29734B1-361C-62FD-4286-F925551520C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,11 +27,15 @@ Global
 		{9002B676-F33C-4DB1-9FB1-DB1C2FAF16F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9002B676-F33C-4DB1-9FB1-DB1C2FAF16F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9002B676-F33C-4DB1-9FB1-DB1C2FAF16F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B29734B1-361C-62FD-4286-F925551520C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B29734B1-361C-62FD-4286-F925551520C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B29734B1-361C-62FD-4286-F925551520C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B29734B1-361C-62FD-4286-F925551520C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-														GlobalSection(MonoDevelopProperties) = preSolution
+																	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

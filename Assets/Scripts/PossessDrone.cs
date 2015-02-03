@@ -8,6 +8,12 @@ public class PossessDrone : MonoBehaviour {
 	public DroneFlight droneDestination;
 	public GameObject miniMap;
 	public Fly_To newDrone;
+
+	public GameObject imagePlane;
+	public float xPos;
+	public float yPos;
+	public float width;
+	public float height;
 	// Use this for initialization
 	void Start () {
 		//gets the drone GameObject and gets the DroneFlight script
@@ -15,17 +21,21 @@ public class PossessDrone : MonoBehaviour {
 		droneDestination = Drone.GetComponent<DroneFlight>();
 		miniMap = GameObject.Find("MiniMap");
 		newDrone = miniMap.GetComponent<Fly_To>();
+
 	
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-		if(Input.GetMouseButtonDown(0))
+		Rect r = camera.pixelRect;
+		print("Camera displays from " + r.xMin + " to " + r.xMax + " pixel");
+
+		if(Input.GetMouseButtonDown(0) && camera.pixelRect.Contains(Input.mousePosition))
 		{	
 		
 
-
+			print ("in viewport");
 
 
 			Ray ray = camera.ScreenPointToRay(Input.mousePosition);
@@ -52,5 +62,7 @@ public class PossessDrone : MonoBehaviour {
 				//}
 			}
 		} 
+
+
 	}
 }
