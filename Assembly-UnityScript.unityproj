@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Bars.js" />
+     <Compile Include="Assets\Drone1Fuel.js" />
      <Compile Include="Assets\Hover.js" />
      <Compile Include="Assets\Textchanger.js" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />

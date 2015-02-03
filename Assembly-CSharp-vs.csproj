@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\Fly_To.cs" />
      <Compile Include="Assets\Scripts\PossessDrone.cs" />
      <Compile Include="Assets\Scripts\TextOutput.cs" />
+     <Compile Include="Assets\test.cs" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>C:/Users/dcurtis/Documents/GitHub/Drone_Sim/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>

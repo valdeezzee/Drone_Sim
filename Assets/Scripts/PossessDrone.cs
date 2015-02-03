@@ -29,13 +29,13 @@ public class PossessDrone : MonoBehaviour {
 	void Update () {
 
 		Rect r = camera.pixelRect;
-		print("Camera displays from " + r.xMin + " to " + r.xMax + " pixel");
+		//print("Camera displays from " + r.xMin + " to " + r.xMax + " pixel");
 
 		if(Input.GetMouseButtonDown(0) && camera.pixelRect.Contains(Input.mousePosition))
 		{	
 		
 
-			print ("in viewport");
+			//print ("in viewport");
 
 
 			Ray ray = camera.ScreenPointToRay(Input.mousePosition);
@@ -49,8 +49,8 @@ public class PossessDrone : MonoBehaviour {
 					// use this to get the parent of the camera you click on and posses that drone!
 					Drone = this.transform.parent.gameObject;
 					DroneGuide = Drone.transform.parent.gameObject;
-				    print(DroneGuide.gameObject.tag);
-					print (camera.gameObject.tag);
+				   // print(DroneGuide.gameObject.tag);
+					//print (camera.gameObject.tag);
 					//newDrone.dronePossessed(Drone);
 				    //print ("CLICKed");
 				    //print(camera.transform.position + "HERE");
