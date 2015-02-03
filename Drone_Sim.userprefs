@@ -1,8 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Textchanger.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Texting.js">
     <Files>
-      <File FileName="Assets\Textchanger.js" Line="18" Column="30" />
+      <File FileName="Assets\Scripts\Texting.js" Line="2" Column="11" />
+      <File FileName="Assets\Scripts\TextOutput.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
