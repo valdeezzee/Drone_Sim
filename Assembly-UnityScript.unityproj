@@ -5,7 +5,11 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
+<<<<<<< HEAD
 	<ProjectGuid>{B29734B1-361C-62FD-4286-F925551520C8}</ProjectGuid>
+=======
+	<ProjectGuid>{5DC47E4B-0CC9-78C1-B6BD-E778A03A237A}</ProjectGuid>
+>>>>>>> origin/master
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -47,6 +51,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Hover.js" />
+<<<<<<< HEAD
+=======
+     <Compile Include="Assets\Textchanger.js" />
+>>>>>>> origin/master
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
@@ -54,9 +62,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+<<<<<<< HEAD
       <Project>{AC46460E-7848-ADC4-BD9C-843E89305C9B}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
       <Project>{9002B676-F33C-4DB1-9FB1-DB1C2FAF16F0}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+=======
+      <Project>{16A7BC2B-9DB1-CB6A-ECCE-48E5C346D929}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{E434881F-0020-A952-C89D-C3AD1A3CD43E}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+>>>>>>> origin/master
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
