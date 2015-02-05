@@ -1,10 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PossessDrone.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\EasyRoads3D Free\_manual.html">
     <Files>
+      <File FileName="Assets\EasyRoads3D Free\_manual.html" Line="1" Column="1" />
+      <File FileName="Assets\EasyRoads3D Free\_readme.txt" Line="1" Column="1" />
+      <File FileName="Assets\RoadTool\Editor\RoadTool.cs" Line="1" Column="1" />
       <File FileName="Assets\test.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PossessDrone.cs" Line="1" Column="1" />
-      <File FileName="Assets\Sliderscale.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
