@@ -50,8 +50,13 @@
      <Compile Include="Assets\Scripts\Fly_To.cs" />
      <Compile Include="Assets\Scripts\PossessDrone.cs" />
      <Compile Include="Assets\Scripts\TextOutput.cs" />
+     <Compile Include="Assets\Sliderscale.cs" />
      <Compile Include="Assets\test.cs" />
-     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>C:/Users/dcurtis/Documents/GitHub/Drone_Sim/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
