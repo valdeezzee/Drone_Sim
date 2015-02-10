@@ -1,10 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PossessDrone.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Drone_Stats.cs">
     <Files>
-      <File FileName="Assets\Scripts\DroneFlight.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PossessDrone.cs" Line="32" Column="72" />
-      <File FileName="Assets\Scripts\Fly_To.cs" Line="8" Column="2" />
+      <File FileName="Assets\Scripts\RangeBar.cs" Line="37" Column="31" />
+      <File FileName="Assets\Scripts\Sliderscale.cs" Line="41" Column="17" />
+      <File FileName="Assets\Scripts\HealthBar.cs" Line="37" Column="34" />
+      <File FileName="Assets\Scripts\Drone_Stats.cs" Line="38" Column="16" />
+      <File FileName="Assets\Scripts\Fly_To.cs" Line="8" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
